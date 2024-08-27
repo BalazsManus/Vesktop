@@ -32,12 +32,12 @@
 
 <body>
     <div class="wrapper">
-        <img
-            draggable="false"
-            src="../shiggy.gif"
-            alt="shiggy"
-            role="presentation"
-        />
+        <video autoplay loop playsinline muted width="200" height="200">
+            <source src="../startup.webm">
+        </video>
+        <script>
+            document.querySelector('video').play();
+        </script>
         <p>Loading Vesktop...</p>
     </div>
 </body>
